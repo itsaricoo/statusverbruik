@@ -1,5 +1,11 @@
 Status Verbruik voor rooted Toons
 
+Voorbeelden:
+
+   ![Hoofdscherm met maandoverzicht](docs/IMG_2213.JPEG)
+   ![Jaarverbruik invullen](docs/IMG_2214.JPEG)
+   ![Tile op het startscherm](docs/IMG_2215.JPEG)
+
 Een QML-app voor rooted Toons die je werkelijke stroom- en gasverbruik vergelijkt met een schatting op basis van je eigen jaarverbruik. Het is een vervanger voor de stock-app Status Verbruik (statusUsage), die zonder Quby/Eneco-cloud geen schatting kan tonen.
 
 Status: experimenteel. De app is ontwikkeld zonder toegang tot een echte Toon en wordt nu voor het eerst op een Toon uitgeprobeerd. Zie Bekende beperkingen.
