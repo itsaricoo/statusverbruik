@@ -1,0 +1,13 @@
+1.1.2
+- hoofdscherm laadde niet: ControlGroup is not a type; import BasicUIControls toegevoegd
+1.1.1
+- app, map en bestanden hernoemd naar statusverbruik / StatusverbruikApp.qml: de Toon laadt de app onder die (kleine-letter) naam; met hoofdletter V werd het bestand niet gevonden
+1.1.0
+- invulscherm: ingevoerde waarden werden overschreven zodra het toetsenbord sloot (onShown); opgelost met firstShown-vlag zoals TSC-apps
+- invulscherm in TSC-stijl: SingleLabel, OnOffToggle, qnumKeyboard met validatie, annuleerknop
+- opslaan/laden via XMLHttpRequest (geen FileIO-import meer), bestand /mnt/data/tsc/statusverbruik.userSettings.json, opslaan wordt teruggelezen en heeft een time-out
+- registratie zoals TSC (geen menu-item, geen lazyLoad-opties)
+- tile: herstelpoging elke minuut (max 10x) als de P1-driver bij het opstarten nog niet bereikbaar is; verouderde antwoorden worden genegeerd na wijzigen van instellingen
+- hoofdscherm herberekent automatisch zodra instellingen zijn geladen of opgeslagen
+1.0.0
+- eerste versie
